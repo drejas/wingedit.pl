@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: theme3299\n"
+"POT-Creation-Date: 2014-12-05 22:14+0200\n"
+"PO-Revision-Date: 2014-12-05 22:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options.php:380
+msgid "Extra"
+msgstr ""
+
+#: ../options.php:384
+msgid "Enter location for map"
+msgstr ""
+
+#: ../options.php:385
+msgid "Enter location for map (city, street, zip)"
+msgstr ""
+
+#: ../options.php:391
+msgid "Enter zoom of your location"
+msgstr ""
+
+#: ../options.php:392
+msgid "Enter zoom of your location (1-15)"
+msgstr ""
+
+#: ../options.php:398
+msgid "Map display"
+msgstr ""
+
+#: ../options.php:399
+msgid "Where should display map?"
+msgstr ""
+
+#: ../options.php:404
+msgid "Only at homepage"
+msgstr ""
+
+#: ../options.php:405
+msgid "On every page"
+msgstr ""
+
+#: ../options.php:413
+msgid "Authentication"
+msgstr ""
+
+#: ../options.php:417
+msgid "Display login links?"
+msgstr ""
+
+#: ../options.php:418
+msgid "Display login links in the menu?"
+msgstr ""
+
+#: ../options.php:426
+msgid "Logoff title."
+msgstr ""
+
+#: ../options.php:427
+msgid "Please input logoff link title."
+msgstr ""
+
+#: ../options.php:433
+msgid "Authentication title (login)."
+msgstr ""
+
+#: ../options.php:434
+msgid "Please input authentication link title."
+msgstr ""
+
+#: ../options.php:445
+msgid "Parallax Slider"
+msgstr ""
+
+#: ../options.php:450 ../options.php:451
+msgid "Display Parallax Slider?"
+msgstr ""
+
+#: ../options.php:462
+msgid "Parallax effect"
+msgstr ""
+
+#: ../options.php:463
+msgid "Select parallax effect."
+msgstr ""
+
+#: ../options.php:468
+msgid "None"
+msgstr ""
+
+#: ../options.php:469
+msgid "Low"
+msgstr ""
+
+#: ../options.php:470
+msgid "Normal"
+msgstr ""
+
+#: ../options.php:471
+msgid "High"
+msgstr ""
+
+#: ../options.php:472
+msgid "Fixed"
+msgstr ""
+
+#: ../options.php:477 ../options.php:478
+msgid "Invert Parallax Slider"
+msgstr ""
+
+#: ../options.php:489
+msgid "Sliding effect"
+msgstr ""
+
+#: ../options.php:490
+msgid "Select your animation type."
+msgstr ""
+
+#: ../options.php:495
+msgid "Simple Fade"
+msgstr ""
+
+#: ../options.php:496
+msgid "Zoom Fade"
+msgstr ""
+
+#: ../options.php:497
+msgid "Slide Top"
+msgstr ""
+
+#: ../options.php:502
+msgid "Slideshow"
+msgstr ""
+
+#: ../options.php:503
+msgid "Animate slider automatically?"
+msgstr ""
+
+#: ../options.php:514
+msgid "Pause time"
+msgstr ""
+
+#: ../options.php:515
+msgid "Pause time (ms)."
+msgstr ""
+
+#: ../options.php:522
+msgid "Animation speed"
+msgstr ""
+
+#: ../options.php:523
+msgid "Animation speed (ms)."
+msgstr ""
+
+#: ../options.php:530 ../options.php:531
+msgid "Scrolling description"
+msgstr ""
+
+#: ../options.php:542
+msgid "Pagination"
+msgstr ""
+
+#: ../options.php:543
+msgid "Display pagination?"
+msgstr ""
+
+#: ../options.php:548
+msgid "Buttons Pagination"
+msgstr ""
+
+#: ../options.php:549
+msgid "Images Pagination"
+msgstr ""
+
+#: ../options.php:555
+msgid "Next & Prev navigation"
+msgstr ""
+
+#: ../options.php:556
+msgid "Display next & prev navigation?"
+msgstr ""
+
+#: ../includes/register-plugins.php:128
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/register-plugins.php:129
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/register-plugins.php:130
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/register-plugins.php:131
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/register-plugins.php:142
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/register-plugins.php:143
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/register-plugins.php:144
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../includes/sidebar-init.php:21
+msgid "Page Area"
+msgstr ""
+
+#: ../includes/sidebar-init.php:23
+msgid "Page Widget Area"
+msgstr ""
+
+#: ../includes/theme-init.php:137
+msgid "Companies"
+msgstr ""
+
+#: ../includes/shortcodes/circle-stat.php:15
+#: ../includes/shortcodes/posts-grid.php:23
+msgid "Read more"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:4
+msgid "Cherry - Facebook Like Box Widget"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:79
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:84
+msgid "Facebook page url"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:86
+msgid "The Like Box only works with "
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:86
+msgid "Facebook Pages."
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:90
+msgid "Width"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:95
+msgid "Height"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:100
+msgid "Color Scheme"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:102
+msgid "Light"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:103
+msgid "Dark"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:109
+msgid "Display header"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:113
+msgid "Display faces"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:117
+msgid "Display stream"
+msgstr ""
+
+#: ../includes/widgets/my-facebook-widget.php:121
+msgid "Display border"
+msgstr ""
+
+#: ../job_manager/content-job_listing.php:46
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../job_manager/content-single-job_listing-company.php:16
+msgid "Website"
+msgstr ""
+
+#: ../job_manager/content-single-job_listing-company.php:33
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: ../job_manager/content-single-job_listing-company.php:36
+msgid "This position has been filled"
+msgstr ""
+
+#: ../job_manager/content-single-job_listing.php:6
+msgid "This listing has expired"
+msgstr ""
+
+#: ../job_manager/job-application.php:7
+msgid "Apply for job"
+msgstr ""
+
+#: ../job_manager/job-submit.php:24 ../job_manager/job-submit.php:41
+#: ../wp-job-manager-resumes/resume-submit.php:32
+msgid "(optional)"
+msgstr ""
+
+#: ../job_manager/job-submit.php:35
+msgid "Company Details"
+msgstr ""
+
+#: ../job_manager/job-submitted.php:7
+#, php-format
+msgid ""
+"%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: ../job_manager/job-submitted.php:10
+#, php-format
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr ""
+
+#: ../wp-job-manager-resumes/contact-details-email.php:1
+#, php-format
+msgid ""
+"To contact this candidate <strong>email</strong> <a class="
+"\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+
+#: ../wp-job-manager-resumes/contact-details-email.php:4
+msgid "Contact using webmail: "
+msgstr ""
+
+#: ../wp-job-manager-resumes/content-resume.php:41
+#: ../wp-job-manager-resumes/content-single-resume.php:84
+#, php-format
+msgid "Updated %s ago"
+msgstr ""
+
+#: ../wp-job-manager-resumes/content-single-resume.php:20
+msgid "Education"
+msgstr ""
+
+#: ../wp-job-manager-resumes/content-single-resume.php:27
+#: ../wp-job-manager-resumes/content-single-resume.php:48
+#, php-format
+msgid "%s at %s"
+msgstr ""
+
+#: ../wp-job-manager-resumes/content-single-resume.php:41
+msgid "Experience"
+msgstr ""
+
+#: ../wp-job-manager-resumes/content-single-resume.php:62
+msgid "Skills"
+msgstr ""
+
+#: ../wp-job-manager-resumes/resume-submitted.php:5
+#, php-format
+msgid ""
+"Resume created successfully. To view your resume <a href=\"%s\">click here</"
+"a>."
+msgstr ""
+
+#: ../wp-job-manager-resumes/resume-submitted.php:8
+msgid "Resume created successfully. Your resume will be visible once approved."
+msgstr ""

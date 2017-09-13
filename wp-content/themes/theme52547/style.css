@@ -1,0 +1,202 @@
+/*--
+	Theme Name: theme52547
+	Theme URI: http://info.template-help.com/help/
+	Description: A theme for Wordpress 4.x
+	Author: Template_Help.com
+	Author URI: http://info.template-help.com/help/
+	Template: CherryFramework
+	Version: 3.1.5
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom CSS here
+---------------------------------------- */
+
+.btn {
+	background: #29ade3 !important;
+}
+
+.btn > span:after, .reply a > span:after {
+	color: #ffffff !important;
+}
+
+.nav__primary .sf-menu > .menu-item.current-menu-item > a, .nav__primary .sf-menu > .menu-item.sfHover > a, .nav__primary .sf-menu > .menu-item.active-menu-item > a {
+	color:#29ade3 !important;
+}
+
+.nav__primary .sf-menu > .menu-item > a:hover, .nav__primary .sf-menu > .menu-item > a:active, .nav__primary .sf-menu > .menu-item > a:focus {
+	color:#29ade3 !important;
+}
+
+.nav__primary .sf-menu > .menu-item > a >.sf-sub-indicator:before {
+	color:#ffffff !important;
+}
+
+.nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:hover, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:active, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:focus {
+	color:#29ade3 !important;
+}
+
+div.job_listings .job_filters .job_types li label {
+	color:#29ade3 !important;
+}
+
+div.job_listings ul.job_listings li.job_listing > a .position h3 {
+	color:#29ade3 !important;
+}
+
+div.job_listings ul.job_listings li.job_listing > a .location:before {
+	color:#29ade3 !important;
+}
+
+div.job_listings ul.job_listings li.job_listing > a .meta .job-type ul.job-types li {
+	color:#29ade3 !important;
+}
+
+.service-box .icon {
+    background:#29ade3 !important;
+}
+
+.service-box .service-box_body .title a {
+	color:#29ade3 !important;
+}
+
+.content_box.green {
+    background: #29ade3 !important;
+}
+
+.testimonials .testi-item .testi-item_blockquote > div a:hover, .testimonials .testi-item .testi-item_blockquote > div a:active, .testimonials .testi-item .testi-item_blockquote > div a:focus {
+	color:#777777 !important;
+}
+
+.posts-grid.blog-posts li h5 a {
+    color: #29ade3 !important;
+}
+
+@media only screen and (min-width: 979px) {
+	.home div.job_listings ul.job_listings { min-height:0px !important; }
+}
+
+.btn:hover {
+    background: #5d5d5d !important;
+}
+
+article.post__holder .post-header .post-title a {
+	color: #29ade3 !important;
+}
+
+.pagination ul li.active span {
+    color: #29ade3 !important;
+}
+
+.cat-item > a {
+    color: #29ade3 !important;
+}
+
+.pagination ul li a:hover, .pagination ul li a:active, .pagination ul li a:focus {
+    color: #fff;
+    background: #777777 !important;
+}
+
+#back-top a {
+	border: 2px solid #29ade3 !important;
+}
+
+#back-top-wrapper #back-top a:hover:after {
+	-webkit-transform:rotateY(360deg);
+	-moz-transform:rotateY(360deg);
+	-ms-transform:rotateY(360deg);
+	-o-transform:rotateY(360deg);
+	transform:rotateY(360deg);
+	color:#29ade3 !important;
+}
+
+.isStuck {
+	top: 0px !important;
+}
+
+.nav {
+	margin-top: 0px !important;
+}
+
+.service-box .service-box_body .title {
+    color: #29ade3 !important;
+}
+
+.parallax-slider #mainImageHolder, .parallax-bg {
+	filter: brightness(0.6) !important;
+}
+
+.header .nav-wrap.isStuck {
+    background-color: #f5f5f5 !important;
+}
+
+.nav-wrap.isStuck > .row > .span8 > nav > ul > li > a {
+	color: #5d5d5d;
+}
+
+.content_box.dark-gray {
+    background: #f5f5f5 !important;
+}
+
+.service-box .icon:before {
+	background: #5d5d5d !important;
+}
+
+.btn.green:before {
+	background: #5d5d5d !important;
+}
+
+.testimonials .testi-item .testi-item_blockquote > div {
+	background: #5d5d5d !important;
+}
+
+.content_box.green {
+	color: white !important;
+}
+
+.content_box.green .title-box .title-box_primary, .content_box.dark-gray .title-box .title-box_primary, .parallax-box .title-box .title-box_primary, .cherry_video_parallax .title-box .title-box_primary {
+    color: #fff !important;
+}
+
+.title-box .title-box_primary {
+	color: #5d5d5d !important;
+}
+
+.testimonial {
+	font-style: normal !important;
+}
+
+.pager li a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #29ade3 !important;
+    border-color: #29ade3 !important;
+}
+
+.single .title-section .title-header, .archive .title-section .title-header, .category .title-section .title-header {
+    color: #29ade3 !important;
+    font-size: 30px;
+}
+
+article .post_meta .post_category a, article .post_meta .post_tag a, article .post_meta .post_tag {
+    color: #29ade3 !important;
+}
+
+article .post_meta .post_author a {
+    color: #29ade3 !important;
+}
+
+article .post_meta .post_date time {
+    color: #29ade3 !important;
+}
+
+.single #content .post-author .post-author_link a {
+    color: #29ade3 !important;
+    text-transform: none;
+    font: 15px/1.2em 'Raleway', sans-serif;
+}
+
+a {
+    color: #29ade3 !important;
+    text-decoration: none;
+}

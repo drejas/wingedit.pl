@@ -1,0 +1,433 @@
+@btnColor: #fff;
+@btnColorHover: #fff;
+@btnBackground: #323232;
+@btnBackgroundHover: #23ba85;
+@btnBorderRadius: 3px;
+@FontFamily: 'Raleway', sans-serif;
+@text-transform: none;
+@letter-spacing: 0;
+@border: none;
+@padding: 10px 25px 10px 30px;;
+@text-shadow: none;
+
+.transition {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.scale(@ratio) {
+  -webkit-transform: scale(@ratio);
+     -moz-transform: scale(@ratio);
+      -ms-transform: scale(@ratio);
+       -o-transform: scale(@ratio);
+          transform: scale(@ratio);
+}
+.font {
+	font: bold 15px/1.2em @FontFamily;
+}
+
+*:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.btn,
+.reply a {
+	border: @border;
+	color: @btnColor;
+	text-decoration: none;
+	background: @btnBackground;
+	cursor: pointer;
+	padding: 0;
+	display: inline-block;
+	text-transform: @text-transform;
+	border-radius: @btnBorderRadius;
+	outline: none;
+	box-shadow: none;
+	text-shadow: @text-shadow;
+	position: relative;
+	letter-spacing: @letter-spacing;
+	.transition;
+	.font;
+
+	> span {
+		position: relative;
+		z-index: 100;
+		display: inline-block;
+		vertical-align: middle;
+		padding: @padding;
+		.transition;
+
+		&:after {
+			content: '';
+			font: 20px/1.2em FontAwesome;
+			color: #23ba85;
+			padding: 0 0 0 15px;
+			margin: 0 0 0 15px;
+			border-left: 1px solid #5b5b5b;
+			display: inline-block;
+			vertical-align: baseline;
+			.transition;
+		}
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: @btnColorHover;
+		background: @btnBackground;
+		border-color: @btnColor;
+		box-shadow: none;
+
+		> span {
+			&:after {
+				color: @btnColorHover;
+				border-color: @btnColorHover;
+			}
+		}
+	}
+}
+input[type="submit"] {
+	border: @border;
+	color: @btnColor;
+	text-decoration: none;
+	background: @btnBackground;
+	cursor: pointer;
+	padding: 0;
+	display: inline-block;
+	text-transform: @text-transform;
+	border-radius: @btnBorderRadius;
+	outline: none;
+	box-shadow: none;
+	text-shadow: @text-shadow;
+	position: relative;
+	padding: @padding;
+	letter-spacing: @letter-spacing;
+	.font;
+	.transition;
+
+	&:hover,
+	&:active {
+		color: @btnColorHover !important;
+		background: none;
+		border-color: @btnColorHover;
+		box-shadow: none;
+	}
+	&:focus {
+		color: @btnColor;
+		background: none;
+		border-color: @btnColor;
+	}
+}
+.btn-from-top {
+	&:before {
+		content: '';
+		width: 100%;
+		height: 0;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		position: absolute;
+		background: @btnBackgroundHover;
+		border-radius: @btnBorderRadius;
+		.transition;
+	}
+	&:hover {
+		color: @btnColorHover;
+
+		&:before {
+			height: 100%;
+			background: @btnBackgroundHover;
+		}
+	}
+}
+.btn-from-bottom {
+	&:before {
+		content: '';
+		width: 100%;
+		height: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		position: absolute;
+		background: @btnBackgroundHover;
+		border-radius: @btnBorderRadius;
+		.transition;
+	}
+	&:hover {
+		background: @btnBackground;
+		color: @btnColorHover;
+
+		&:before {
+			height: 100%;
+			background: @btnBackgroundHover;
+		}
+	}
+}
+.btn-from-left {
+	&:before {
+		content: '';
+		width: 0;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		position: absolute;
+		background: @btnBackgroundHover;
+		border-radius: @btnBorderRadius;
+		.transition;
+	}
+	&:hover {
+		background: @btnBackground;
+		color: @btnColorHover;
+
+		&:before {
+			width: 100%;
+			background: @btnBackgroundHover;
+		}
+	}
+}
+.btn-from-right {
+	&:before {
+		content: '';
+		width: 0;
+		height: 100%;
+		top: 0;
+		right: 0;
+		z-index: 10;
+		position: absolute;
+		background: @btnBackgroundHover;
+		border-radius: @btnBorderRadius;
+		.transition;
+	}
+	&:hover {
+		background: @btnBackground;
+		color: @btnColorHover;
+
+		&:before {
+			width: 100%;
+			background: @btnBackgroundHover;
+		}
+	}
+}
+.btn-from-center-vertical,
+.btn-from-center-horizontal,
+.btn-to-center-vertical,
+.btn-to-center-horizontal,
+.btn-from-center-in-sides {
+	overflow: hidden;
+
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		background: @btnBackgroundHover;
+		.transition;
+	}
+}
+.btn-from-center-vertical {	
+	background: @btnBackgroundHover;
+
+	&:before,
+	&:after {
+		width: 55%;
+		top: 0;
+		height: 100%;
+		background: @btnBackground;
+	}
+	&:before {
+		left: 0;
+	}
+	&:after {
+		right: 0;
+	}
+	&:hover {
+		background: @btnBackgroundHover;
+		
+		&:before,
+		&:after {
+			width: 0;
+		}
+	}
+}
+.btn-from-center-horizontal {
+	background: @btnBackgroundHover;
+
+	&:before,
+	&:after {
+		background: @btnBackground;
+		width: 100%;
+		left: 0;
+		height: 55%;
+	}
+	&:before {
+		top: 0;
+	}
+	&:after {
+		bottom: 0;
+	}
+	&:hover {
+		&:before,
+		&:after {
+			height: 0;
+		}
+	}
+}
+.btn-to-center-horizontal {
+	&:before,
+	&:after {
+		height: 0;
+		left: 0;
+		width: 100%;
+	}
+	&:before {
+		top: 0;
+	}
+	&:after {
+		bottom: 0;
+	}
+	&:hover {
+		&:before,
+		&:after {
+			height: 50%;
+		}
+	}
+}
+.btn-to-center-vertical {
+	&:before,
+	&:after {
+		width: 0;
+		top: 0;
+		height: 100%;
+	}
+	&:before {
+		left: 0;
+	}
+	&:after {
+		right: 0;
+	}
+	&:hover {
+		&:before,
+		&:after {
+			width: 50%;
+		}
+	}
+}
+.btn-from-center-in-sides {
+	padding: @padding;
+	background: @btnBackground;
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background: @btnBackgroundHover;
+		border-radius: @btnBorderRadius;
+		position: absolute;
+		top: 0;
+		left: 0;
+		.scale(0);
+	}
+	&:hover,
+	&:active {
+		background: @btnBackground;
+
+		&:before {
+			.scale(1.2);
+		}
+	}
+}
+.btn-only-text-line-from-left {
+	padding: 0;
+	border: none;
+	transition: 400ms color ease;
+
+	span {
+		padding: 1px 0;
+		display: block;
+
+		&:before {
+			content: '';
+			width: 0;
+			height: 1px;
+			background: @btnColor;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 100;
+			opacity: 1;
+			.transition;
+		}
+	}
+	&.input-btn {
+		> span {
+			padding: 0;
+		}
+		input {
+			display: block;
+			height: 100%;
+		}
+	}
+	&:hover,
+	&:active {
+		color: @btnColorHover;
+
+		span {
+			&:before {
+				width: 100%;
+				background: @btnColorHover;
+			}
+		}
+	}
+}
+.btn-only-text-two-lines-from-left {
+	padding: 0;
+	border: none;
+	transition: 400ms color ease;
+
+	span {
+		padding: 2px 0;
+		display: inline-block;
+
+		&:before {
+			content: '';
+			width: 0;
+			height: 1px;
+			background: @btnColor;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			opacity: 1;
+			.transition;
+		}
+		&:after {
+			content: '';
+			width: 0;
+			height: 1px;
+			background: @btnColor;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+			opacity: 1;
+			.transition;
+		}
+	}
+	&.input-btn {
+		> span {
+			padding: 0;
+		}
+		input {
+			display: block;
+			height: 100%;
+		}
+	}
+	&:hover,
+	&:active {
+		color: @btnColorHover;
+
+		span {
+			&:before,
+			&:after {
+				width: 100%;
+				background: @btnColorHover;
+			}
+		}
+	}
+}
